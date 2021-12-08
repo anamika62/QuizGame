@@ -17,13 +17,12 @@ username.addEventListener("keyup" , ()=>{
 })
 
 
-
 saveHighScore =(e) =>{
-    console.log("clicked The save Buttom");
-    e.preventDefault();
+    alert("Thank You!);
+     console.log("clicked The save Buttom");
+//     e.preventDefault();
 
     const score ={
-
         score:Math.floor(Math.random()*100),
         name:username.value
     };
